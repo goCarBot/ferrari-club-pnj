@@ -10,6 +10,10 @@ This repository is configured as a monorepo with the PA Concorso site as a works
 
 ## Vercel Project Setup
 
+Verified Vercel project:
+- Project name: `pcf`
+- Project ID: `prj_QgfHHlwKY4RhWwnjdRD9WX8HDSKk`
+
 1. Import this repository into Vercel.
 2. In project settings, set **Root Directory** to:
    - `mockups/pcf`
@@ -21,6 +25,7 @@ This repository is configured as a monorepo with the PA Concorso site as a works
    - leave empty
 
 This is a static HTML/CSS site, so no framework build step is required.
+The root `package.json` includes a `vercel-build` script that resolves to `npm run build:pcf`.
 
 ## Local Commands
 
