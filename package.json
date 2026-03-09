@@ -1,0 +1,13 @@
+{
+  "name": "ferrari-club-pnj",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "mockups/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace pcf-site",
+    "build:pcf": "npm run build --workspace pcf-site",
+    "preview:pcf": "npm run preview --workspace pcf-site"
+  }
+}

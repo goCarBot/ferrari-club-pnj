@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../cloud_agents"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../concours-command"
+		}
+	],
+	"settings": {}
+}
