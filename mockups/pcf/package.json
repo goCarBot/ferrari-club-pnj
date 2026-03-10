@@ -4,7 +4,22 @@
   "version": "0.1.0",
   "description": "Pennsylvania Concorso Ferrari static site",
   "scripts": {
-    "build": "node -e \"console.log('Static site build: no compilation required')\"",
-    "preview": "python3 -m http.server 4173"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build:legacy": "node -e \"console.log('Static site build: no compilation required')\"",
+    "preview:legacy": "python3 -m http.server 4173"
+  },
+  "dependencies": {
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
   }
 }

@@ -1,1 +1,19 @@
+# vercel
 .vercel
+
+# next.js
+.next/
+out/
+
+# dependencies
+node_modules/
+
+# misc
+*.tsbuildinfo
+next-env.d.ts
+
+# debug
+npm-debug.log*
+
+# env
+.env*.local

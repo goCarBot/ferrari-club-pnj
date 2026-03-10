@@ -1,8 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "outputDirectory": "mockups/pcf",
-  "cleanUrls": false,
-  "trailingSlash": false,
+  "buildCommand": "cd mockups/pcf && npm run build",
+  "outputDirectory": "mockups/pcf/.next",
+  "framework": "nextjs",
   "headers": [
     {
       "source": "/(.*)",
